@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Erich Browser</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+    <div class="container carousel-container">
+
+        <h1 class="text-center mb-4">
+            Erich Browser
+        </h1>
+
+        <div class="form-check mb-3">
+
+            <input class="form-check-input" type="checkbox" id="autoScrollCheckbox" checked>
+
+            <label class="form-check-label" for="autoScrollCheckbox">
+
+                Auto Scroll
+
+            </label>
+
+        </div>
+
+        <div id="imageCarousel" class="carousel slide">
+
+            <div class="carousel-inner" id="carouselInner">
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+
+                <span class="carousel-control-next-icon"></span>
+
+            </button>
+
+        </div>
+
+        <div class="thumbs" id="thumbs">
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="module" src="./js/main.js"></script>
+
+</body>
+
+</html>

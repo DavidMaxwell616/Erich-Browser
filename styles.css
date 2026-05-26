@@ -1,0 +1,47 @@
+body {
+       background: #111;
+       color: white;
+   }
+
+   .carousel-container {
+       max-width: 900px;
+       margin: 40px auto;
+   }
+
+   .carousel-item img {
+       width: 100%;
+       height: 520px;
+       object-fit: contain;
+       background: #000;
+       border-radius: 12px;
+   }
+
+   .thumbs {
+       display: flex;
+       gap: 10px;
+       overflow-x: auto;
+       padding: 15px 0;
+   }
+
+   .thumbs img {
+       width: 110px;
+       height: 70px;
+       object-fit: cover;
+       cursor: pointer;
+       border-radius: 6px;
+       opacity: 0.6;
+       border: 2px solid transparent;
+   }
+
+   .thumbs img.active {
+       opacity: 1;
+       border-color: #fff;
+   }
+.image-path {
+    color: #ccc;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    word-break: break-all;
+    font-family: monospace;
+}
